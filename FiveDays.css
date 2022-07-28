@@ -1,0 +1,113 @@
+.search-box {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+}
+.search-bar {
+  width: 300px;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  border-radius: 15px;
+  font-size: 20px;
+  transition: 0.4s ease;
+  color: rgba(17, 78, 123, 255);
+  height: 60px;
+}
+
+.spinner {
+  color: rgb(252, 166, 6);
+  margin: 0px auto;
+}
+.fa-five {
+  border-radius: 10px;
+  color: rgba(17, 78, 123, 255);
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  backdrop-filter: blur(13px) saturate(182%);
+  -webkit-backdrop-filter: blur(13px) saturate(182%);
+  background-color: rgba(255, 255, 255, 0.49);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.fa-five:hover {
+  color: #ff6f1e;
+}
+/*CARD*/
+.card {
+  width: 200px;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(7px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(7px) saturate(180%) !important;
+  background-color: rgba(255, 222, 162, 0.46) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(209, 213, 219, 0.3) !important;
+  -webkit-box-shadow: inset -1px 3px 8px 5px rgb(102, 109, 121),
+    2px 5px 16px 0px rgb(216, 215, 215), 0px 1px 14px -2px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px rgb(102, 109, 121),
+    2px 5px 16px 0px rgb(216, 215, 215), 0px 1px 14px -2px rgba(0, 0, 0, 0);
+}
+
+.cards {
+  margin: -250px 80px 20px;
+  border-radius: 10px;
+  padding: 30px;
+  background-image: white;
+  -webkit-box-shadow: inset -1px 3px 8px 5px rgb(102, 109, 121),
+    2px 5px 16px 0px rgb(216, 215, 215), 0px 1px 14px -2px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px rgb(102, 109, 121),
+    2px 5px 16px 0px rgb(216, 215, 215), 0px 1px 14px -2px rgba(0, 0, 0, 0);
+}
+.card-img {
+  width: 100%;
+  height: auto;
+}
+.card-temp {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(17, 78, 123, 255);
+}
+.card-feel,
+.card-hum,
+.card-wind {
+  font-size: 20px;
+  color: rgba(17, 78, 123, 255);
+}
+.card-button {
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  cursor: pointer;
+  background-color: rgba(17, 78, 123, 255);
+}
+/*///////media///////*/
+@media (max-width: 1024px) {
+  .search-today {
+    margin: 200px auto 200px;
+  }
+  .cards {
+    width: 95%;
+    margin: -100px auto 20px;
+  }
+  .card {
+    width: 280px;
+    margin: 10px auto;
+  }
+  .fa-five {
+    margin-left: 10px;
+  }
+}
+@media (min-height: 1030px) {
+}

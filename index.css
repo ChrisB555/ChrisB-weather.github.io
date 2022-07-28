@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  background-image: url("https://i.picsum.photos/id/875/3072/2461.jpg?hmac=G3p8czlyrSecf8s2TJpxQ-Fn9eEwqQ6xJt9H7tH7ph0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* https://i.picsum.photos/id/994/7149/4771.jpg?hmac=khHARkXeffafYjI10oNQfpgNw-kBLs_i0R03n6-5Awk
+https://i.picsum.photos/id/733/5464/3643.jpg?hmac=Q_YlarpBqxz4Q5n9YRT8zLVvw2OObHRDAI6cvw25Bno
+https://i.picsum.photos/id/213/4928/3264.jpg?hmac=OC0yPL-iiM1YgVjpAjbMf51MjnR6cycgmn1TSLJhDZ0
+*/

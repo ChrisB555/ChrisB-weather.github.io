@@ -1,0 +1,14 @@
+.weather-api {
+  margin: 110px auto 330px auto;
+  text-align: center;
+}
+
+.weather-api a {
+  text-decoration: none;
+  color: rgba(17, 78, 123, 255);
+  font-size: 28px;
+}
+.weather-api a:hover {
+  text-decoration: underline;
+  color: rgba(17, 78, 123, 255);
+}
